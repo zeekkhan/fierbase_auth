@@ -1,0 +1,40 @@
+.private-conatainer{
+    max-width: 1200px;
+    background-color: black;
+    boc-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.private-header{
+    background-color: #4a90e2;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.private-content{
+    padding: 20px;
+}
+.private-content h2{
+    padding: 20px;
+    border-radius: 1px solid #e0e0e0;
+    margin-top: 0;
+}
+
+.private-footer{
+    padding: 20px;
+    text-align: center;
+}
+
+.private-footer button{
+    background-color: #e74c3c;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.private-footer button:hover{
+    background-color: #c0392b;
+}
